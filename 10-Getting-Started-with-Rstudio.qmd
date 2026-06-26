@@ -20,16 +20,16 @@ editor_options:
 license: "CC BY-NC-SA"
 ---
 
-The Quarto file used to generate the html file can be obtained by clicking on the Code Links beneath the Table of Contents which will open the Math 3376 Posit Cloud Project where you can open the file `10-Getting-Started-with-RStudio.qmd`.
+The Quarto file used to generate the html file can be obtained by clicking on the Code Links beneath the Table of Contents which will open the Math 3376 Posit Cloud Project where you can open the file `10-Getting-Started-with-Rstudio.qmd`.
 
 # Welcome to RStudio! Wait, Why Are We Here?
 
 ------------------------------------------------------------------------
 
--   [RStudio](https://posit.co/products/open-source/rstudio/) is open-source (FREE) software for programming with R and other languages.
-    RStudio can work with different file formats.
+- [RStudio](https://posit.co/products/open-source/rstudio/) is open-source (FREE) software for programming with R and other languages.
+  RStudio can work with different file formats.
 
--   [Google Colaboratory](https://colab.research.google.com/) is an open-source, cloud-based software for programming using interactive [Jupyter notebooks](https://jupyter.org/) with file extension `*.ipynb`.
+- [Google Colaboratory](https://colab.research.google.com/) is an open-source, cloud-based software for programming using interactive [Jupyter notebooks](https://jupyter.org/) with file extension `*.ipynb`.
 
 Should we use RStudio, Colab, or some other software for programming in R?
 We can dwell on the question for a long time, and there are many technical details we can unpack about how the systems work.
@@ -50,35 +50,35 @@ There are many things we can choose to consider (or ignore).
 
 Similarities between Colab (Jupyter documents, `*.ipynb`) and RStudio (Quarto, `*.qmd`):
 
--   Both are open-source.
--   Both have cloud-based versions.
--   Both have two types of cells (or chunks): text and code.
--   Text is formatted using Markdown in both.
--   Both can be used to program in multiple languages.
+- Both are open-source.
+- Both have cloud-based versions.
+- Both have two types of cells (or chunks): text and code.
+- Text is formatted using Markdown in both.
+- Both can be used to program in multiple languages.
 
 ### Why Colab Instead of RStudio?
 
 ------------------------------------------------------------------------
 
--   File sharing in Google Drive is excellent and very customizable.
--   [Jupyter notebooks](https://jupyter.org/) are awesome and commonly used/shared in the world of data science.
--   Integration with Google Drive sharing is great.
--   Comments in Colab are useful when collaborating.
--   Google is very stable and has a suite of other applications.
--   Excellent for teaching/learning.
+- File sharing in Google Drive is excellent and very customizable.
+- [Jupyter notebooks](https://jupyter.org/) are awesome and commonly used/shared in the world of data science.
+- Integration with Google Drive sharing is great.
+- Comments in Colab are useful when collaborating.
+- Google is very stable and has a suite of other applications.
+- Excellent for teaching/learning.
 
 ### Why RStudio Instead of Colab?
 
 ------------------------------------------------------------------------
 
--   RStudio has a free desktop version you can download and work offline.
--   RStudio is the classic software most frequently used to program in R.
--   We can work with multiple file types in RStudio and export to different file types with Quarto.
--   Packages are more readily available and easier to manage in RStudio.
--   More natural to work with files saved/written locally on your computer/cloud.
--   Graphics are displayed better.
--   There is a user-friendly spell check.
--   **We can create interactive graphics with `plotly`!**
+- RStudio has a free desktop version you can download and work offline.
+- RStudio is the classic software most frequently used to program in R.
+- We can work with multiple file types in RStudio and export to different file types with Quarto.
+- Packages are more readily available and easier to manage in RStudio.
+- More natural to work with files saved/written locally on your computer/cloud.
+- Graphics are displayed better.
+- There is a user-friendly spell check.
+- **We can create interactive graphics with `plotly`!**
 
 # The Ingredients
 
@@ -93,8 +93,8 @@ Similarities between Colab (Jupyter documents, `*.ipynb`) and RStudio (Quarto, `
 [R](https://www.r-project.org/) is a free software environment for statistical computing and graphics.
 It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS.
 
--   This is our same friend we have been getting to know!
--   We can download R (go to <https://cran.rstudio.com/>) onto our computer if we want to code using downloaded software such as [RStudio](https://posit.co/products/open-source/rstudio/).
+- This is our same friend we have been getting to know!
+- We can download R (go to <https://cran.rstudio.com/>) onto our computer if we want to code using downloaded software such as [RStudio](https://posit.co/products/open-source/rstudio/).
 
 ## The Software Developers: Posit
 
@@ -106,9 +106,9 @@ It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS.
 They "help the world make sense of data".
 Their mission is to create open-source software for data science, scientific research, and technical communication.
 
--   A cloud based version of RStudio is available at <https://posit.cloud/>.
-    -   Our course materials are available at <https://posit.cloud/content/9926677>.
--   We can download a FREE desktop version at <https://posit.co/download/rstudio-desktop/>.
+- A cloud based version of RStudio is available at <https://posit.cloud/>.
+  - Our course materials are available at <https://posit.cloud/content/9926677>.
+- We can download a FREE desktop version at <https://posit.co/download/rstudio-desktop/>.
 
 ## The Software: RStudio (or Posit Cloud)
 
@@ -118,7 +118,7 @@ Their mission is to create open-source software for data science, scientific res
 
 [RStudio](https://posit.co/products/open-source/rstudio/) is an integrated development environment, or IDE, for R programming, which you can download from <https://posit.co/download/rstudio-desktop/>.
 
--   If you'd like a comprehensive overview of all of RStudio's features, see the RStudio User Guide at <https://docs.posit.co/ide/user>.
+- If you'd like a comprehensive overview of all of RStudio's features, see the RStudio User Guide at <https://docs.posit.co/ide/user>.
 
 ## File Management: Quarto
 
@@ -129,8 +129,8 @@ Their mission is to create open-source software for data science, scientific res
 [Quarto](https://quarto.org/) provides a unified authoring framework for data science, combining your code, its results, and your prose.
 Quarto documents are fully reproducible and support dozens of output formats, like PDFs, Word files, presentations, and more.
 
--   Getting started with Quarto tutorial: <https://quarto.org/docs/get-started/hello/rstudio.html>.
--   A comprehensive guide is available at <https://quarto.org/docs/guide/>.
+- Getting started with Quarto tutorial: <https://quarto.org/docs/get-started/hello/rstudio.html>.
+- A comprehensive guide is available at <https://quarto.org/docs/guide/>.
 
 ### The Strange Heading: Quarto YAML
 
@@ -138,8 +138,8 @@ Quarto documents are fully reproducible and support dozens of output formats, li
 
 Quarto provides a rich set of YAML metadata keys to describe *front matter* details such as the title and author.
 
--   Quarto help with front matter: <https://quarto.org/docs/authoring/front-matter.html>
--   In addition to front matter, we can also set other options such as whether to display R code, whether to run the code when rendering, and what output (if any) to display from the code.
+- Quarto help with front matter: <https://quarto.org/docs/authoring/front-matter.html>
+- In addition to front matter, we can also set other options such as whether to display R code, whether to run the code when rendering, and what output (if any) to display from the code.
 
 ## Formatting Narrative Text: Markdown
 
@@ -150,9 +150,9 @@ Quarto provides a rich set of YAML metadata keys to describe *front matter* deta
 [Markdown](https://www.markdownguide.org/) is a lightweight markup language that you can use to add formatting elements to plaintext text documents.
 Created by John Gruber in 2004, Markdown is now one of the world's most popular markup languages.
 
--   [Markdown Guide: Basic Syntax Guide](https://www.markdownguide.org/basic-syntax/)
--   [Markdown Guide: Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
--   [Quarto Markdown Basics Guide](https://quarto.org/docs/authoring/markdown-basics.html)
+- [Markdown Guide: Basic Syntax Guide](https://www.markdownguide.org/basic-syntax/)
+- [Markdown Guide: Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+- [Quarto Markdown Basics Guide](https://quarto.org/docs/authoring/markdown-basics.html)
 
 The raw Quarto code used to generate the html file can be obtained by toggling the "Code" box in the upper-right corner of the html file and selecting "Download Rmd" (which actually downloads a Quarto file `*.qmd`)
 
@@ -163,24 +163,24 @@ The raw Quarto code used to generate the html file can be obtained by toggling t
 When we open a public Posit Cloud project that we have not created, we have view permissions.
 We look at the materials and run code, but we cannot save changes made to the shared files which we can only view.
 
--   In order to save our own copy that we can edit and save, we need to first click the `Save a Permanent Copy` located at on the banner top of the page.
+- In order to save our own copy that we can edit and save, we need to first click the `Save a Permanent Copy` located at on the banner top of the page.
 
 ![Save Permanent Copy to Cloud](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/save-to-cloud.png){width="70%"}
 
--   We can then download the project from Posit Cloud by click the download link from the list of Workspaces in your account.
+- We can then download the project from Posit Cloud by click the download link from the list of Workspaces in your account.
 
 ![Download Cloud Project](https://raw.githubusercontent.com/CU-Denver-MathStats-OER/Data-Wrangling-and-Visualization/main/Images/download-project.png){width="90%"}
 
--   See the Posit Cloud help resources at: <https://docs.posit.co/cloud/> for more details.
+- See the Posit Cloud help resources at: <https://docs.posit.co/cloud/> for more details.
 
 # Navigating the Panes of an RStudio Window
 
 ------------------------------------------------------------------------
 
--   **Console**: Where the code is executed.
--   **Script Window**: Where you prepare commands to be executed. **This is the main pane!**
--   **Workspace**: Where you can see all the objects in your workspace and your command history.
--   **Files/Plot/Packages/Help**: Where you navigate between directories, view plots, manage packages, and **get help**.
+- **Console**: Where the code is executed.
+- **Script Window**: Where you prepare commands to be executed. **This is the main pane!**
+- **Workspace**: Where you can see all the objects in your workspace and your command history.
+- **Files/Plot/Packages/Help**: Where you navigate between directories, view plots, manage packages, and **get help**.
 
 ![The Panes of an RStudio Window](https://docs.posit.co/ide/user/ide/get-started/images/rstudio-panes-labeled.jpeg){width="75%"}
 
@@ -188,8 +188,8 @@ We look at the materials and run code, but we cannot save changes made to the sh
 
 ------------------------------------------------------------------------
 
--   The RStudio User Guide: <https://docs.posit.co/ide/user>
--   [Chapter 6 Workflow: scripts and projects](https://r4ds.hadley.nz/workflow-scripts.html) from R for Data Science 2nd edition.
+- The RStudio User Guide: <https://docs.posit.co/ide/user>
+- [Chapter 6 Workflow: scripts and projects](https://r4ds.hadley.nz/workflow-scripts.html) from R for Data Science 2nd edition.
 
 ## Source and Visual Mode
 
@@ -198,15 +198,15 @@ We look at the materials and run code, but we cannot save changes made to the sh
 When working with Markdown documents such as Quarto (`*.qmd`) and RMarkdown (`*.Rmd`) in RStudio, there are two available modes to view the document, namely [**Source**]{style="color:dodgerblue"} and [**Visual**]{style="color:dodgerblue"}.
 We can switch between the two viewing modes by selecting the buttons on the top-left of the document toolbar.
 
--   Source mode: View raw, unrendered Markdown.
-    -   [Markdown Guide: Basic Syntax Guide](https://www.markdownguide.org/basic-syntax/)
-    -   [Markdown Guide: Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
--   Visual: View the rendered output of Markdown.
+- Source mode: View raw, unrendered Markdown.
+  - [Markdown Guide: Basic Syntax Guide](https://www.markdownguide.org/basic-syntax/)
+  - [Markdown Guide: Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+- Visual: View the rendered output of Markdown.
 
 For those familiar with Colab, here is a useful analogy.
 When you activate a text cell in Colab, the left side is equivalent to Source mode and the right side is equivalent to Visual mode.
 
--   There is an [**Outline**]{style="color:dodgerblue"} button on the top-right of the document toolbar which opens a table of contents.
+- There is an [**Outline**]{style="color:dodgerblue"} button on the top-right of the document toolbar which opens a table of contents.
 
 ## Inserting R Code Cells
 
@@ -215,9 +215,9 @@ When you activate a text cell in Colab, the left side is equivalent to Source mo
 Code cells are also called code chunks and code blocks.
 We can insert a new code cell in various ways.
 
--   We can type \`\`\` {r} on a new line to insert a new R code cell (in either Source or View mode), enter code, and then close the code cell by typing \`\`\` on a new line .
--   If working in Visual mode, you can use the Insert drop down menu in the tool bar.
--   In visual mode we can use keyboard shortcuts `Shift+Ctrl+\` on PC and `Shift+Command+\` on Mac.
+- We can type \`\`\` {r} on a new line to insert a new R code cell (in either Source or View mode), enter code, and then close the code cell by typing \`\`\` on a new line .
+- If working in Visual mode, you can use the Insert drop down menu in the tool bar.
+- In visual mode we can use keyboard shortcuts `Shift+Ctrl+\` on PC and `Shift+Command+\` on Mac.
 
 ```{r}
 x <- seq(1, 4, 0.5)
@@ -236,24 +236,24 @@ mean(storms$wind)
 
 ------------------------------------------------------------------------
 
--   Running a single code cell can be done similar to Colab:
-    -   Click the play button in the upper right corner of the code cell.
-    -   Keyboard shortcuts: `Shift + Ctrl + Enter` on PC or `Shift + Command + Return` on Mac.
--   We can also use the Run button on right side of the toolbar for additional options.
--   We can also access the various run options in the `Code` menu.
+- Running a single code cell can be done similar to Colab:
+  - Click the play button in the upper right corner of the code cell.
+  - Keyboard shortcuts: `Shift + Ctrl + Enter` on PC or `Shift + Command + Return` on Mac.
+- We can also use the Run button on right side of the toolbar for additional options.
+- We can also access the various run options in the `Code` menu.
 
 ## Installing, Loading, Managing Packages
 
 ------------------------------------------------------------------------
 
--   We only need to install a package with the `install.packages()` function once!
-    -   Source files are **permanently** downloaded into appropriate folders (either locally or on Posit Cloud).
-    -   Install packages in the Console below as opposed to in script or Quarto file.
-    -   We can view a list of all available packages in the `Packages` tab in the Output Pane.
--   We still need to load a package with the `library()` function each time we start a new session in order to be able to access scripts, data, and other files in the package.
--   Each loaded package appears with a check mark in the `Packages` tab in the Output Pane.
--   We we open a new document that requires certain packages we have not installed, we often get asked if we would like to install all the required packages in a pop up!
-    -   The will run `install.packages()` but you will still need to load them with `library()`.
+- We only need to install a package with the `install.packages()` function once!
+  - Source files are **permanently** downloaded into appropriate folders (either locally or on Posit Cloud).
+  - Install packages in the Console below as opposed to in script or Quarto file.
+  - We can view a list of all available packages in the `Packages` tab in the Output Pane.
+- We still need to load a package with the `library()` function each time we start a new session in order to be able to access scripts, data, and other files in the package.
+- Each loaded package appears with a check mark in the `Packages` tab in the Output Pane.
+- We we open a new document that requires certain packages we have not installed, we often get asked if we would like to install all the required packages in a pop up!
+  - The will run `install.packages()` but you will still need to load them with `library()`.
 
 # Rendering to Other File Types
 
@@ -262,16 +262,16 @@ mean(storms$wind)
 [Pandoc](https://pandoc.org/) is a tool for converting files from one markup format into another.
 Pandoc supports a huge array of output formats, all of which can be used with Quarto.
 
--   To use any Pandoc format set the `format` option in the YAML section.
-    -   The most universal file format is `html`, so we will use that as our default.
-    -   You can also convert to a static pdf or word document as well as to an interactive Jupyter notebook that we can open in Colab.
--   To convert to the indicated `format`, we can use any of the methods below:
--   Click on the Render button on the toolbar.
--   From the menu options, select `File/Render Document`.
--   Keyboard shortcut: `Shift + Ctrl + K` on PC and `Shift + Command + K` on Mac.
--   A new document is created by default in the same folder as the Quarto file.
--   By default, the new file is opened on your computer.
--   Or you may see an error message in the Console.
+- To use any Pandoc format set the `format` option in the YAML section.
+  - The most universal file format is `html`, so we will use that as our default.
+  - You can also convert to a static pdf or word document as well as to an interactive Jupyter notebook that we can open in Colab.
+- To convert to the indicated `format`, we can use any of the methods below:
+- Click on the Render button on the toolbar.
+- From the menu options, select `File/Render Document`.
+- Keyboard shortcut: `Shift + Ctrl + K` on PC and `Shift + Command + K` on Mac.
+- A new document is created by default in the same folder as the Quarto file.
+- By default, the new file is opened on your computer.
+- Or you may see an error message in the Console.
 
 ![Render Workflow](https://quarto.org/docs/get-started/hello/images/rstudio-qmd-how-it-works.png){width="90%"}
 
@@ -294,11 +294,11 @@ If you want to install R and RStudio on your computer, you need to so in two ste
 
 You can find links to download both R and RStudio at <https://posit.co/download/rstudio-desktop/>.
 
--   Be sure you choose the correct operating system.
--   Be sure you choose the most up to date version of R and RStudio that is *compatible with your operating system*.
-    -   The most recent release may not be compatible with your computer if your computer is running an older operating system.
-    -   If you have an older computer, be sure to check the system requirements before choosing which version/release to download.
--   I am happy to assist any students with process in office hours or over Zoom.
+- Be sure you choose the correct operating system.
+- Be sure you choose the most up to date version of R and RStudio that is *compatible with your operating system*.
+  - The most recent release may not be compatible with your computer if your computer is running an older operating system.
+  - If you have an older computer, be sure to check the system requirements before choosing which version/release to download.
+- I am happy to assist any students with process in office hours or over Zoom.
 
 # Appendix: Code Output Options
 
@@ -307,11 +307,11 @@ You can find links to download both R and RStudio at <https://posit.co/download/
 Code block options are included in a special comment at the top of the block (lines at the top prefaced with `#|` are considered options).
 Options available for customizing output include:
 
-| Option    | Description                                                                                                                                                                                       |
-|------------------|------------------------------------------------------|
-| `eval`    | Evaluate the code chunk (if `false`, just echos the code into the output).                                                                                                                        |
-| `echo`    | Include the source code in output                                                                                                                                                                 |
-| `output`  | Include the results of executing the code in the output (`true`, `false`, or `asis` to indicate that the output is raw markdown and should not have any of Quarto's standard enclosing markdown). |
-| `warning` | Include warnings in the output.                                                                                                                                                                   |
-| `error`   | Include errors in the output (note that this implies that errors executing code will not halt processing of the document).                                                                        |
-| `include` | Catch all for preventing any output (code or results) from being included (e.g. include: false suppresses all output from the code block).                                                        |
+| Option | Description |
+|----|----|
+| `eval` | Evaluate the code chunk (if `false`, just echos the code into the output). |
+| `echo` | Include the source code in output |
+| `output` | Include the results of executing the code in the output (`true`, `false`, or `asis` to indicate that the output is raw markdown and should not have any of Quarto's standard enclosing markdown). |
+| `warning` | Include warnings in the output. |
+| `error` | Include errors in the output (note that this implies that errors executing code will not halt processing of the document). |
+| `include` | Catch all for preventing any output (code or results) from being included (e.g. include: false suppresses all output from the code block). |
